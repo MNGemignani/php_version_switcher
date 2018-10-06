@@ -2,7 +2,7 @@
 
 ### Installation:
  
- First of all we need to install multiple php versions, this can be easily done via Ondřej package, you can look for this on google, but basic commands would be:
+ First of all we need to install multiple php versions, this can be easily done via Ondřej package, you can look for it on google, but basic commands would be:
 
     $ sudo apt-get update
     
@@ -17,7 +17,7 @@
     
  Second you can add the scripts from this repo, for this there are a few options, I will give two basic ones. 
  
- 1) Add the content from `phpvto` to the end of your `.bashrc` file and after saving it run `$ source .bashrc`.
+ 1) Add the content from `phpvto` to the end of your `.bashrc` file (you can find this file in your home directory) and after saving it, run `$ source .bashrc`.
  
  2) Add `phpvto.sh` some where in your home directory, and run `$ chmod +x phpvto.sh` to make it executable.
  
