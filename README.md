@@ -1,4 +1,4 @@
-# Php version switcher
+# PHP version switcher
 
 ### Installation:
  
@@ -14,24 +14,24 @@
     $ sudo apt install php7.0   
     $ sudo apt install php7.1   
     $ sudo apt install php7.2   
+    $ sudo apt install php7.3   
+    $ sudo apt install php7.4
     
- Second you can add the scripts from this repo, for this there are a few options, I will give two basic ones. 
+ Second you can add the scripts from this repo, for this there are a few options, here is one: 
  
- 1) Add the content from `phpvto` to the end of your `.bashrc` file (you can find this file in your home directory) and after saving it, run `$ source .bashrc`.
- 
- 2) Add `phpvto.sh` some where in your home directory, and run `$ chmod +x phpvto.sh` to make it executable.
+    $ mkdir ~/bin
+    $ mv phpvto.sh ~/bin/phpvto
+    $ chmod +x ~/bin/phpvto
+    
+ Add `~/bin` to your PATH 
  
  
 ### Usage: 
 
-  1)  If you install using the first option, just run `$ phpvto [version-number]` and the script will do the rest.
-  
-  2)  For the second option you need to run `$ ./phpvto.sh [version-number]` (from the directory where the file is, or add the file to your PATH).
-  
+  Run `$ phpvto [version-number]` and the script will do the rest.
+    
   
 ### Information:
 
-  For help run `$ phpvto -help` or `$ ./phpvto.sh -help`.
-  
-  Please do not expect any help or bug fixing from me, this is only a trial script for learning proposes. I'm always open for tips or improvements in my code.
-    
+  For help run `$ phpvto --help` .
+      
